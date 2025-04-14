@@ -9,7 +9,7 @@ trigger:
 pool:
  name: Default
  demands:
-    - agent.name -equals YourAgentName
+    - agent.name -equals DESKTOP-A21NAE6
  vmImage: ubuntu-latest
 steps:
 - task: Maven@3

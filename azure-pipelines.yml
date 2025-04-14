@@ -10,7 +10,7 @@ pool:
  name: Default
  demands:
     - agent.name -equals DESKTOP-A21NAE6
- vmImage: ubuntu-latest
+    
 steps:
 - task: Maven@3
   inputs:
